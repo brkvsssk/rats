@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: rgba(111, 0, 255, 0.774);
+    margin: 0%;
+}
+.main {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.img {
+    width: 450px;
+    border-radius: 10%;
+}
+.text {
+    text-align: center;
+    color:aliceblue
+}
+.rats {
+    text-align: right;
+    font-size: 90px;
+    font-weight: bold;
+}
+#central {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-right: 10%;
+
+}
+.des {
+    font-size: large;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
