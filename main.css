@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: rgba(111, 0, 255, 0.774);
+    background-color:rgb(101, 45, 255);
     margin: 0%;
 }
 .main {
@@ -12,10 +12,15 @@ body {
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
+    background-color: rgb(255, 195, 85);
+    border-radius: 3.3333333333rem;
+    padding: 20px;
+    margin: 10px;
 }
 .img {
-    width: 450px;
+    width: 400px;
     border-radius: 10%;
+    margin-top: 20px;
 }
 .text {
     text-align: center;
@@ -27,14 +32,56 @@ body {
     font-weight: bold;
 }
 #central {
-    margin-top: 200px;
-    margin-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     padding-right: 10%;
-
+    background-color:rgb(101, 45, 255);
+    margin: 0%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
 .des {
     font-size: large;
     margin-top: 10px;
     font-weight: bold;
     text-align: center;
+}
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color:rgb(255, 195, 85);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.right {
+    display: flex;
+    gap: 50px;
+ }
+ .button { 
+    color:  rgba(111, 0, 255, 0.774);
+    background-color: aliceblue;
+    border-radius: 3.3333333333rem;
+    padding: 10px;
+}
+.logo {
+    background-color:  rgba(111, 0, 255, 0.774);
+    border-radius: 50%;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: aliceblue
+}
+.more {
+  background-color:rgba(111, 0, 255, 0.774);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px;
+  border-radius: 3.3333333333rem;
 }
